@@ -1,7 +1,7 @@
 import React from "react";
 import CartProvider from "./context/CartContext";
-import Cart from "./components/Cart";
-import CartPage from "./pages/CartPage";
+import Cart from "./components/Cart.jsx";
+import CartPage from "./pages/CartPage.jsx";
 import Signup from "./pages/Signup";
 import Checkout from "./pages/Checkout";
 import WishlistProvider from "./context/WishlistContext";
@@ -10,7 +10,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import ProductDetails from "./pages/ProductDetails";
-import Login from "./pages/Login";
+import Login from "./pages/Login.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import OrderSuccess from "./pages/OrderSuccess";
